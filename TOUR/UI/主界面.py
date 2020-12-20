@@ -1,0 +1,90 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file '主界面.ui'
+#
+# Created by: PyQt5 UI code generator 5.10.1
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_MainWindowOperation(object):
+    def setupUi(self, MainWindowOperation):
+        MainWindowOperation.setObjectName("MainWindowOperation")
+        MainWindowOperation.resize(897, 760)
+        self.centralwidget = QtWidgets.QWidget(MainWindowOperation)
+        self.centralwidget.setObjectName("centralwidget")
+        self.pushButtonHotel = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButtonHotel.setGeometry(QtCore.QRect(690, 290, 128, 128))
+        self.pushButtonHotel.setText("")
+        self.pushButtonHotel.setObjectName("pushButtonHotel")
+        self.pushButtonTrans = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButtonTrans.setGeometry(QtCore.QRect(690, 520, 128, 128))
+        self.pushButtonTrans.setText("")
+        self.pushButtonTrans.setObjectName("pushButtonTrans")
+        self.labelCustmerInfo_6 = QtWidgets.QLabel(self.centralwidget)
+        self.labelCustmerInfo_6.setGeometry(QtCore.QRect(690, 660, 121, 31))
+        self.labelCustmerInfo_6.setStyleSheet("font: 12pt \"新宋体\";")
+        self.labelCustmerInfo_6.setObjectName("labelCustmerInfo_6")
+        self.pushButtonRouteSights = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButtonRouteSights.setGeometry(QtCore.QRect(430, 520, 128, 128))
+        self.pushButtonRouteSights.setText("")
+        self.pushButtonRouteSights.setObjectName("pushButtonRouteSights")
+        self.labelCustmerInfo = QtWidgets.QLabel(self.centralwidget)
+        self.labelCustmerInfo.setGeometry(QtCore.QRect(450, 200, 81, 31))
+        self.labelCustmerInfo.setStyleSheet("font: 12pt \"新宋体\";")
+        self.labelCustmerInfo.setObjectName("labelCustmerInfo")
+        self.labelCustmerInfo_4 = QtWidgets.QLabel(self.centralwidget)
+        self.labelCustmerInfo_4.setGeometry(QtCore.QRect(450, 430, 81, 31))
+        self.labelCustmerInfo_4.setStyleSheet("font: 12pt \"新宋体\";")
+        self.labelCustmerInfo_4.setObjectName("labelCustmerInfo_4")
+        self.pushButtonTouristsInfo = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButtonTouristsInfo.setGeometry(QtCore.QRect(430, 60, 128, 128))
+        self.pushButtonTouristsInfo.setText("")
+        self.pushButtonTouristsInfo.setObjectName("pushButtonTouristsInfo")
+        self.labelCustmerInfo_2 = QtWidgets.QLabel(self.centralwidget)
+        self.labelCustmerInfo_2.setGeometry(QtCore.QRect(700, 200, 101, 31))
+        self.labelCustmerInfo_2.setStyleSheet("font: 12pt \"新宋体\";")
+        self.labelCustmerInfo_2.setObjectName("labelCustmerInfo_2")
+        self.pushButtonGuide = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButtonGuide.setGeometry(QtCore.QRect(430, 290, 128, 128))
+        self.pushButtonGuide.setText("")
+        self.pushButtonGuide.setObjectName("pushButtonGuide")
+        self.pushButtonTourGroup = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButtonTourGroup.setGeometry(QtCore.QRect(690, 60, 128, 128))
+        self.pushButtonTourGroup.setText("")
+        self.pushButtonTourGroup.setObjectName("pushButtonTourGroup")
+        self.labelCustmerInfo_3 = QtWidgets.QLabel(self.centralwidget)
+        self.labelCustmerInfo_3.setGeometry(QtCore.QRect(430, 660, 131, 31))
+        self.labelCustmerInfo_3.setStyleSheet("font: 12pt \"新宋体\";")
+        self.labelCustmerInfo_3.setObjectName("labelCustmerInfo_3")
+        self.labelCustmerInfo_5 = QtWidgets.QLabel(self.centralwidget)
+        self.labelCustmerInfo_5.setGeometry(QtCore.QRect(710, 430, 81, 31))
+        self.labelCustmerInfo_5.setStyleSheet("font: 12pt \"新宋体\";")
+        self.labelCustmerInfo_5.setObjectName("labelCustmerInfo_5")
+        self.labelPIC = QtWidgets.QLabel(self.centralwidget)
+        self.labelPIC.setGeometry(QtCore.QRect(50, 70, 141, 171))
+        self.labelPIC.setText("")
+        self.labelPIC.setObjectName("labelPIC")
+        self.pushButton = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton.setGeometry(QtCore.QRect(210, 210, 30, 30))
+        self.pushButton.setText("")
+        self.pushButton.setObjectName("pushButton")
+        MainWindowOperation.setCentralWidget(self.centralwidget)
+        self.statusbar = QtWidgets.QStatusBar(MainWindowOperation)
+        self.statusbar.setObjectName("statusbar")
+        MainWindowOperation.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindowOperation)
+        QtCore.QMetaObject.connectSlotsByName(MainWindowOperation)
+
+    def retranslateUi(self, MainWindowOperation):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindowOperation.setWindowTitle(_translate("MainWindowOperation", "主界面"))
+        self.labelCustmerInfo_6.setText(_translate("MainWindowOperation", "出行方式信息"))
+        self.labelCustmerInfo.setText(_translate("MainWindowOperation", "游客信息"))
+        self.labelCustmerInfo_4.setText(_translate("MainWindowOperation", "导游信息"))
+        self.labelCustmerInfo_2.setText(_translate("MainWindowOperation", "旅行团信息"))
+        self.labelCustmerInfo_3.setText(_translate("MainWindowOperation", "景点-线路信息"))
+        self.labelCustmerInfo_5.setText(_translate("MainWindowOperation", "酒店信息"))
+
